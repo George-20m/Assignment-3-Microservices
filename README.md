@@ -81,8 +81,11 @@ Both services will start:
 ![Figure 3](images/Figure%203%20Service%20A%20gracefully%20handling%20Service%20B%20unavailability%20(Service%20B%20is%20DOWN!).png)
 *Figure 3: Service A gracefully handling Service B unavailability ("Service B is DOWN!")*
 
-![Figure 4](images/Figure%204%20Both%20services%20running%20in%20Docker%20containers.png)
-*Figure 4: Both services running in Docker containers*
+![Figure 4](images/Figure%204%20servicesb%20not%20running%20in%20Docker%20containers.png)
+*Figure 4: Service B not running in Docker containers*
+
+![Figure 5](images/Figure%205%20Both%20services%20running%20in%20Docker%20containers.png)
+*Figure 5: Both services running in Docker containers*
 
 ---
 
