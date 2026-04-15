@@ -70,18 +70,18 @@ Both services will start:
 
 ### Successful API Calls
 
-<!-- TODO: Add screenshot of successful /get-data call showing "From Service A -> Hello from Service B" -->
+![Figure 1](images/Figure%201%20Successful%20API%20call%20to%20Service%20A%20(get-data).png)
 *Figure 1: Successful API call to Service A (/get-data)*
 
-<!-- TODO: Add screenshot of successful /data call to Service B -->
+![Figure 2](images/Figure%202%20Direct%20API%20call%20to%20Service%20B%20(data).png)
 *Figure 2: Direct API call to Service B (/data)*
 
 ### Failure Simulation
 
-<!-- TODO: Add screenshot showing Service A response when Service B is down -->
+![Figure 3](images/Figure%203%20Service%20A%20gracefully%20handling%20Service%20B%20unavailability%20(Service%20B%20is%20DOWN!).png)
 *Figure 3: Service A gracefully handling Service B unavailability ("Service B is DOWN!")*
 
-<!-- TODO: Add screenshot of Docker containers running -->
+![Figure 4](images/Figure%204%20Both%20services%20running%20in%20Docker%20containers.png)
 *Figure 4: Both services running in Docker containers*
 
 ---
