@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  serviceb:
+    build:
+      context: ./serviceb
+      dockerfile: serviceb/Dockerfile
+    ports:
+      - "8081:8081"
+
+  servicea:
+    build:
+      context: ./servicea
+      dockerfile: servicea/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - serviceb
